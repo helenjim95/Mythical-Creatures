@@ -1,6 +1,6 @@
 package de.tum.in.ase;
 
-public class Cacus extends Animal implements BreathingFire {
+public class Cacus extends Animal implements FireBreathing {
     public Cacus(String name) {
         super(name);
     }

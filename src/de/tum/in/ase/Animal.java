@@ -16,7 +16,7 @@ public abstract class Animal {
         this.name = name;
     }
 
-    void eat() {}
+    abstract void eat();
 
     public static void main(String[] args) {
         //TODO: Test your code here

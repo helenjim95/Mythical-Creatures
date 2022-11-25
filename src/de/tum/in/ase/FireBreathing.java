@@ -1,5 +1,5 @@
 package de.tum.in.ase;
 
-public interface BreathingFire {
+public interface FireBreathing {
     void breatheFire();
 }

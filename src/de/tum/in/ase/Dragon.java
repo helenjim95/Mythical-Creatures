@@ -1,6 +1,6 @@
 package de.tum.in.ase;
 
-public class Dragon extends Animal implements Flying, BreathingFire {
+public class Dragon extends Animal implements Flying, FireBreathing {
 
 
     public Dragon(String name) {
