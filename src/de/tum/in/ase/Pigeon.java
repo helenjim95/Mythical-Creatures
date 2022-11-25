@@ -1,6 +1,6 @@
 package de.tum.in.ase;
 
-public class Pigeon extends Animal {
+public class Pigeon extends Animal implements Flying {
     public Pigeon(String name) {
         super(name);
     }
