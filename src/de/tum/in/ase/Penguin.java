@@ -5,8 +5,9 @@ public class Penguin extends Animal {
         super(name);
     }
 
+//    Question: how to access superclass name attribute
     @Override
     public void eat() {
-        System.out.printf("%s the %s eats!%n", this.getName(), super.getName());
+        System.out.printf("%s the %s eats!%n", this.getName(), this.getClass().getSimpleName());
     }
 }

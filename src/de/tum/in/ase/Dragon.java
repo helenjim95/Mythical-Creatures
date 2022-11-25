@@ -9,15 +9,15 @@ public class Dragon extends Animal implements Flying, FireBreathing {
 
     @Override
     public void eat() {
-        System.out.printf("%s the %s eats!%n", this.getName(), super.getName());
+        System.out.printf("%s the %s eats!%n", this.getName(), this.getClass().getSimpleName());
     }
 
     public void fly() {
-        System.out.printf("%s the %s flies!%n", this.getName(), super.getName());
+        System.out.printf("%s the %s flies!%n", this.getName(), this.getClass().getSimpleName());
     }
 
     public void breatheFire() {
-        System.out.printf("%s the %s breathes fire!%n", this.getName(), super.getName());
+        System.out.printf("%s the %s breathes fire!%n", this.getName(), this.getClass().getSimpleName());
     }
 
 }

@@ -16,10 +16,10 @@ public abstract class Animal {
         this.name = name;
     }
 
-    abstract void eat();
+    public abstract void eat();
 
     public static void main(String[] args) {
-        //TODO: Test your code here
+        //Done: Test your code here
         Dragon draco = new Dragon("draco");
         Penguin pengu = new Penguin("pengu");
         Pigeon birdy = new Pigeon("birdy");
